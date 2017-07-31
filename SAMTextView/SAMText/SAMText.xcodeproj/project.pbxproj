@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		280A4C811F2FA9F0008677C2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 280A4C801F2FA9F0008677C2 /* Info.plist */; };
-		289186021F2FA81C00E292D7 /* SAMTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 289186001F2FA81C00E292D7 /* SAMTextView.h */; };
-		289186031F2FA81C00E292D7 /* SAMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289186011F2FA81C00E292D7 /* SAMTextView.m */; };
+		280A4C931F2FAB6C008677C2 /* SAMText.h in Headers */ = {isa = PBXBuildFile; fileRef = 280A4C911F2FAB6C008677C2 /* SAMText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		280A4C9B1F2FACB3008677C2 /* SAMTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 280A4C991F2FACB3008677C2 /* SAMTextView.h */; };
+		280A4C9C1F2FACB3008677C2 /* SAMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 280A4C9A1F2FACB3008677C2 /* SAMTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		280A4C801F2FA9F0008677C2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
-		289185EE1F2FA62600E292D7 /* SAMTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAMTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		289185FE1F2FA69700E292D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		289186001F2FA81C00E292D7 /* SAMTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMTextView.h; sourceTree = SOURCE_ROOT; };
-		289186011F2FA81C00E292D7 /* SAMTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMTextView.m; sourceTree = SOURCE_ROOT; };
+		280A4C8E1F2FAB6C008677C2 /* SAMText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAMText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		280A4C911F2FAB6C008677C2 /* SAMText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMText.h; sourceTree = "<group>"; };
+		280A4C921F2FAB6C008677C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280A4C991F2FACB3008677C2 /* SAMTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SAMTextView.h; path = ../../SAMTextView.h; sourceTree = "<group>"; };
+		280A4C9A1F2FACB3008677C2 /* SAMTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SAMTextView.m; path = ../../SAMTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		289185EA1F2FA62600E292D7 /* Frameworks */ = {
+		280A4C8A1F2FAB6C008677C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,130 +31,122 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		289185E41F2FA62600E292D7 = {
+		280A4C841F2FAB6C008677C2 = {
 			isa = PBXGroup;
 			children = (
-				289185F01F2FA62600E292D7 /* SAMTextView */,
-				289185EF1F2FA62600E292D7 /* Products */,
-				289185FD1F2FA69700E292D7 /* Frameworks */,
+				280A4C901F2FAB6C008677C2 /* SAMText */,
+				280A4C8F1F2FAB6C008677C2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		289185EF1F2FA62600E292D7 /* Products */ = {
+		280A4C8F1F2FAB6C008677C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				289185EE1F2FA62600E292D7 /* SAMTextView.framework */,
+				280A4C8E1F2FAB6C008677C2 /* SAMText.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		289185F01F2FA62600E292D7 /* SAMTextView */ = {
+		280A4C901F2FAB6C008677C2 /* SAMText */ = {
 			isa = PBXGroup;
 			children = (
-				289186001F2FA81C00E292D7 /* SAMTextView.h */,
-				289186011F2FA81C00E292D7 /* SAMTextView.m */,
-				280A4C801F2FA9F0008677C2 /* Info.plist */,
+				280A4C911F2FAB6C008677C2 /* SAMText.h */,
+				280A4C991F2FACB3008677C2 /* SAMTextView.h */,
+				280A4C9A1F2FACB3008677C2 /* SAMTextView.m */,
+				280A4C921F2FAB6C008677C2 /* Info.plist */,
 			);
-			path = SAMTextView;
-			sourceTree = "<group>";
-		};
-		289185FD1F2FA69700E292D7 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				289185FE1F2FA69700E292D7 /* Foundation.framework */,
-			);
-			name = Frameworks;
+			path = SAMText;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		289185EB1F2FA62600E292D7 /* Headers */ = {
+		280A4C8B1F2FAB6C008677C2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				289186021F2FA81C00E292D7 /* SAMTextView.h in Headers */,
+				280A4C9B1F2FACB3008677C2 /* SAMTextView.h in Headers */,
+				280A4C931F2FAB6C008677C2 /* SAMText.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		289185ED1F2FA62600E292D7 /* SAMTextView */ = {
+		280A4C8D1F2FAB6C008677C2 /* SAMText */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 289185F61F2FA62600E292D7 /* Build configuration list for PBXNativeTarget "SAMTextView" */;
+			buildConfigurationList = 280A4C961F2FAB6C008677C2 /* Build configuration list for PBXNativeTarget "SAMText" */;
 			buildPhases = (
-				289185E91F2FA62600E292D7 /* Sources */,
-				289185EA1F2FA62600E292D7 /* Frameworks */,
-				289185EB1F2FA62600E292D7 /* Headers */,
-				289185EC1F2FA62600E292D7 /* Resources */,
+				280A4C891F2FAB6C008677C2 /* Sources */,
+				280A4C8A1F2FAB6C008677C2 /* Frameworks */,
+				280A4C8B1F2FAB6C008677C2 /* Headers */,
+				280A4C8C1F2FAB6C008677C2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SAMTextView;
-			productName = SAMTextView;
-			productReference = 289185EE1F2FA62600E292D7 /* SAMTextView.framework */;
+			name = SAMText;
+			productName = SAMText;
+			productReference = 280A4C8E1F2FAB6C008677C2 /* SAMText.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		289185E51F2FA62600E292D7 /* Project object */ = {
+		280A4C851F2FAB6C008677C2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "pushd, inc.";
 				TargetAttributes = {
-					289185ED1F2FA62600E292D7 = {
+					280A4C8D1F2FAB6C008677C2 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 7ZSXMDAV58;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 289185E81F2FA62600E292D7 /* Build configuration list for PBXProject "SAMTextView" */;
+			buildConfigurationList = 280A4C881F2FAB6C008677C2 /* Build configuration list for PBXProject "SAMText" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 289185E41F2FA62600E292D7;
-			productRefGroup = 289185EF1F2FA62600E292D7 /* Products */;
+			mainGroup = 280A4C841F2FAB6C008677C2;
+			productRefGroup = 280A4C8F1F2FAB6C008677C2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				289185ED1F2FA62600E292D7 /* SAMTextView */,
+				280A4C8D1F2FAB6C008677C2 /* SAMText */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		289185EC1F2FA62600E292D7 /* Resources */ = {
+		280A4C8C1F2FAB6C008677C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				280A4C811F2FA9F0008677C2 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		289185E91F2FA62600E292D7 /* Sources */ = {
+		280A4C891F2FAB6C008677C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				289186031F2FA81C00E292D7 /* SAMTextView.m in Sources */,
+				280A4C9C1F2FACB3008677C2 /* SAMTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		289185F41F2FA62600E292D7 /* Debug */ = {
+		280A4C941F2FAB6C008677C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +198,7 @@
 			};
 			name = Debug;
 		};
-		289185F51F2FA62600E292D7 /* Release */ = {
+		280A4C951F2FAB6C008677C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,7 +244,7 @@
 			};
 			name = Release;
 		};
-		289185F71F2FA62600E292D7 /* Debug */ = {
+		280A4C971F2FAB6C008677C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -261,16 +253,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = SAMText/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pushd.SAMTextView;
+				PRODUCT_BUNDLE_IDENTIFIER = pushd.SAMText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		289185F81F2FA62600E292D7 /* Release */ = {
+		280A4C981F2FAB6C008677C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -279,10 +271,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = SAMText/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pushd.SAMTextView;
+				PRODUCT_BUNDLE_IDENTIFIER = pushd.SAMText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -291,25 +283,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		289185E81F2FA62600E292D7 /* Build configuration list for PBXProject "SAMTextView" */ = {
+		280A4C881F2FAB6C008677C2 /* Build configuration list for PBXProject "SAMText" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				289185F41F2FA62600E292D7 /* Debug */,
-				289185F51F2FA62600E292D7 /* Release */,
+				280A4C941F2FAB6C008677C2 /* Debug */,
+				280A4C951F2FAB6C008677C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		289185F61F2FA62600E292D7 /* Build configuration list for PBXNativeTarget "SAMTextView" */ = {
+		280A4C961F2FAB6C008677C2 /* Build configuration list for PBXNativeTarget "SAMText" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				289185F71F2FA62600E292D7 /* Debug */,
-				289185F81F2FA62600E292D7 /* Release */,
+				280A4C971F2FAB6C008677C2 /* Debug */,
+				280A4C981F2FAB6C008677C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 289185E51F2FA62600E292D7 /* Project object */;
+	rootObject = 280A4C851F2FAB6C008677C2 /* Project object */;
 }
