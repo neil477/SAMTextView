@@ -8,11 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-FOUNDATION_EXPORT double SAMTextViewVersionNumber;
-
-//! Project version string for SAMTextView.
-FOUNDATION_EXPORT const unsigned char SAMTextViewVersionString[];
-
 /**
  UITextView subclass that adds placeholder support like UITextField has.
  */
