@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		280A4C931F2FAB6C008677C2 /* SAMText.h in Headers */ = {isa = PBXBuildFile; fileRef = 280A4C911F2FAB6C008677C2 /* SAMText.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		280A4C9B1F2FACB3008677C2 /* SAMTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 280A4C991F2FACB3008677C2 /* SAMTextView.h */; };
 		280A4C9C1F2FACB3008677C2 /* SAMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 280A4C9A1F2FACB3008677C2 /* SAMTextView.m */; };
 /* End PBXBuildFile section */
 
@@ -65,7 +64,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				280A4C9B1F2FACB3008677C2 /* SAMTextView.h in Headers */,
 				280A4C931F2FAB6C008677C2 /* SAMText.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
